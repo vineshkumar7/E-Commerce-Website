@@ -1,0 +1,375 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <div class="logo"><a href="#">VK mart</a></div>
+      <div class="menu">
+        <a href="#">
+          <ion-icon name="close" class="close"></ion-icon>
+        </a>
+  
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">SHOP</a></li>
+          <li><a href="#" class="under">OUR PRODUCTS</a></li>
+          <li><a href="#" class="under">CONTACT US</a></li>
+          <li><a href="#" class="under">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="search">
+  
+        <a href=""><input type="text" placeholder="search products" id="input">
+          <ion-icon class="s" name="search"></ion-icon>
+        </a>
+      </div>
+      <div class="heading">
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">SHOP</a></li>
+          <li><a href="#" class="under">OUR PRODUCTS</a></li>
+          <li id="contact-us">
+            <a href="#" class="under" onclick="toggleContactInfo()">CONTACT US</a>
+            <div class="contact-info" id="contact-info">
+              <div class="phone">
+                <ion-icon name="call" class="icon"></ion-icon>
+                <a href="tel:+1234567890">+123 456 7890</a>
+              </div>
+              <div class="email">
+                <ion-icon name="mail" class="icon"></ion-icon>
+                <a href="mailto:info@vkmart.com">info@vkmart.com</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="#" class="under">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="heading1">
+        <ion-icon name="menu" class="ham"></ion-icon>
+      </div>
+    </header>
+    <section>
+      <div class="section">
+        <div class="section1">
+          <div class="img-slider">
+            <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+            <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+            <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img">
+            <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+            <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="img">
+          </div>
+  
+        </div>
+        <div class="section2">
+          <div class="container">
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\shoes.webp" alt=""></div>
+              <div class="name">SHOES</div>
+              <div class="price">₹999</div>
+              <div class="info">Red Tape Sneaker Casual Shoes for Men</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img2"><img src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">Men's Jacket</div>
+              <div class="price">₹2,100</div>
+              <div class="info">Dennis Lingo Men's Regular Denim Jacket</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img3"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\jeans.webp" alt=""></div>
+              <div class="name">JEANS</div>
+              <div class="price">₹799</div>
+              <div class="info">Highlander Men Blue Tapered Jeans</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+              <div class="name">WATCH</div>
+              <div class="price">₹1,2999</div>
+              <div class="info">Men Leather Fashion Analog Dial Watch</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\Apple-iPhone-15-Pro-Colors-Gear.webp" alt="" alt=""></div>
+              <div class="name">SMART PHONE</div>
+              <div class="price">₹1,51,000</div>
+              <div class="info">Apple iPhone 15 Pro Max</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\telivision.jpg" alt=""></div>
+              <div class="name">TELEVISION</div>
+              <div class="price">₹30,999</div>
+              <div class="info">LG 108 cm (43 inches) 4K Ultra HD Smart LED </div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="https://images.pexels.com/photos/4295985/pexels-photo-4295985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="name">HOODIES</div>
+              <div class="price">₹760</div>
+              <div class="info">Hoodies for Men Stylish Sweatshirt for Men</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\dinner.jpg" alt=""></div>
+              <div class="name">DINNER SET</div>
+              <div class="price">₹1999</div>
+              <div class="info">
+                Larah by Borosil Blue Eve Opalware Dinner Set</div>
+                <div class="actions">
+                  <button class="add-to-cart">Add to Cart</button>
+                  <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\619yV6BGthL._SX425_.jpg" alt=""></div>
+              <div class="name">BLANKETS</div>
+              <div class="price">₹3,249</div>
+              <div class="info">Double Bed Blanket for Heavy Winter </div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\TELEMMGLPICT000341883746_16887389431030_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.webp" alt=""></div>
+              <div class="name">LAPTOP</div>
+              <div class="price">₹78,230</div>
+              <div class="info">The best laptops for everyday use</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\MC2846BR-Microwave-ovens-Top-Right-Detail-view-DZ-08.webp" alt=""></div>
+              <div class="name">MICROWAVE</div>
+              <div class="price">₹14,000</div>
+              <div class="info">LG MC2846BR Convection Healthy Microwave Ovens</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\61GRnqDOvaL._AC_UF894,1000_QL80_.jpg" alt=""></div>
+              <div class="name">COFFEE MAKER</div>
+              <div class="price">₹9,799</div>
+              <div class="info">AGARO Imperial Coffee Maker, Coffee Machine</div>
+              <div class="actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img 
+                src="https://images.pexels.com/photos/6606354/pexels-photo-6606354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+            <div class="name">BED</div>
+            <div class="price">₹39,000</div>
+            <div class="info">Nilkamal Electra Max Solid Wood Bed </div>
+            <div class="actions">
+              <button class="add-to-cart">Add to Cart</button>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\daikin-inverter-split-ac-500x500.webp" alt=""></div>
+            <div class="name">AIR CONDITIONER</div>
+            <div class="price">₹42,657</div>
+            <div class="info">5 Star Daikin Inverter Split Air Conditioner</div>
+            <div class="actions">
+              <button class="add-to-cart">Add to Cart</button>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img img1"><img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+            <div class="name">BOOK</div>
+            <div class="price">₹199</div>
+            <div class="info">The Japanese secret to a long and happy life</div>
+            <div class="actions">
+              <button class="add-to-cart">Add to Cart</button>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img img1"><img src="https://images.pexels.com/photos/4339598/pexels-photo-4339598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+            <div class="name">BAG</div>
+            <div class="price">₹1,236</div>
+            <div class="info">Zara Crossbody Bag Brown</div>
+            <div class="actions">
+              <button class="add-to-cart">Add to Cart</button>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img img1"><img src="C:\Users\vines\Downloads\VK Project\VK Project\VK Project\E-Commerce website\images\Preserve-kanchipuram-sarees.webp" alt=""></div>
+            <div class="name">SAREES</div>
+            <div class="price">₹16,450</div>
+            <div class="info">Kanchipuram Silk Sarees</div>
+            <div class="actions">
+              <button class="add-to-cart">Add to Cart</button>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="img img1"><img src="https://images.pexels.com/photos/5816934/pexels-photo-5816934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></div>
+            <div class="name">WASHING MACHINE</div>
+            <div class="price">₹35,990</div>
+            <div class="info"> Front Load Washing Machine </div>
+            <div class="actions">
+              <button class="add-to-cart">Add to Cart</button>
+              <button class="buy-now">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <section id="cart-summary">
+      <h2>Cart Summary</h2>
+      <div id="cart-items"></div>
+      <div id="total-price">Total: ₹0</div>
+      <button id="checkout">Proceed to Checkout</button>
+  </section>
+  </section>
+  <!-- Payment Section -->
+<section id="payment-section">
+  <div class="payment-container">
+    <h2>Payment Information</h2>
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </table>
+    </div>
+    <div class="payment-method">
+      <h3>Select Payment Method</h3>
+      <form id="payment-form">
+        <div class="payment-option">
+          <input type="radio" id="credit-card" name="payment-method" value="credit-card" checked>
+          <label for="credit-card">Credit/Debit Card</label>
+        </div>
+        <div class="payment-option">
+          <input type="radio" id="paypal" name="payment-method" value="paypal">
+          <label for="paypal">PayPal</label>
+        </div>
+        <div class="payment-option">
+          <input type="radio" id="net-banking" name="payment-method" value="net-banking">
+          <label for="net-banking">Net Banking</label>
+        </div>
+        <button type="submit" class="btn-submit">Proceed to Payment</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section id="personal-details-section" class="hidden">
+  <div class="personal-details-container">
+      <h2>Enter Personal Details</h2>
+      <form id="personal-details-form">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" required>
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required>
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required>
+          <label for="zip-code">Pin Code:</label>
+          <input type="text" id="zip-code" name="zip-code" required>
+          <label for="phone">Phone Number:</label>
+          <input type="text" id="phone" name="phone" required>
+          <button type="submit">Submit Details</button>
+      </form>
+  </div>
+</section>
+  <footer>
+    <div class="footer0">
+      <h1>VK mart</h1>
+    </div>
+    <div class="footer1 ">
+      Connect with us at<div class="social-media">
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/vineshkumar7" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/vinesh_kumar.s" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <div class="footer2">
+      <div class="product">
+        <div class="heading">Products</div>
+        <div class="div">Sell your Products</div>
+        <div class="div">Advertise</div>
+        <div class="div">Pricing</div>
+        <div class="div">Product Buisness</div>
+
+      </div>
+      <div class="services">
+        <div class="heading">Services</div>
+        <div class="div">Return</div>
+        <div class="div">Cash Back</div>
+        <div class="div">Affiliate Marketing</div>
+        <div class="div">Others</div>
+      </div>
+      <div class="Company">
+        <div class="heading">Company</div>
+        <div class="div">Complaint</div>
+        <div class="div">Careers</div>
+        <div class="div">Affiliate Marketing</div>
+        <div class="div">Support</div>
+      </div>
+      <div class="Get Help">
+        <div class="heading">Get Help</div>
+        <div class="div">Help Center</div>
+        <div class="div">Privacy Policy</div>
+        <div class="div">Terms</div>
+        <div class="div">Login</div>
+      </div>
+    </div>
+    <div class="footer3">Copyright ©<h4>VK mart</h4> 2024-2050</div>
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="javascript.js"></script>
+
+</body>
+
+</html>
